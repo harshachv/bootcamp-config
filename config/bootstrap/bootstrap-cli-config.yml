@@ -20,7 +20,6 @@ bootstrap:
     #
     # Recommended values for a new v2-project are given as comments!
 
-
     # default is: allprojects
     #   recommended is shorter: 'all'
         aggregated-level-name: all
