@@ -28,7 +28,6 @@ jobs:
                       CDF_CLUSTER: westeurope-1
                       CDF_PROJECT: cdf-bootcamp-04-prod
                       IDP_TENANT: 16e3985b-ebe8-4e24-9da4-933e21a9fc81
-
         environment: ${{ matrix.environment}}
         env:
             CDF_HOST: https://${{ matrix.CDF_CLUSTER }}.cognitedata.com/
